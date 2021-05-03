@@ -50,10 +50,7 @@ class WelcomeViewController : UIViewController, WelcomeView {
     var onDismiss: (() -> Void)? 
 
     /// Configure layout
-    func setBottomMargin(margin: Float) {
-        bottomConstraint.constant =
-            CGFloat(margin) + Specs.tabbarHeight + Specs.bottomMargin
-    }
+    func setBottomMargin(margin: Float) { }
 
     /// Loads data
     func loadData(data: WelcomeData) {

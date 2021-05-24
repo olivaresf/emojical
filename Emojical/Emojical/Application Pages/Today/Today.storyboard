@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WLj-Ww-rrq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WLj-Ww-rrq">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -377,13 +377,6 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="awards" destination="50g-Iv-28T" id="rJg-33-0R6"/>
-                        <outlet property="day0" destination="dJ0-of-a5u" id="KGk-pN-C4M"/>
-                        <outlet property="day1" destination="1lM-26-t9b" id="4Ap-si-crK"/>
-                        <outlet property="day2" destination="EOr-jo-VtK" id="p15-0A-47v"/>
-                        <outlet property="day3" destination="M3W-1S-Mqu" id="Snk-FM-nRH"/>
-                        <outlet property="day4" destination="Rbx-OB-6HF" id="vND-cb-n9Y"/>
-                        <outlet property="day5" destination="QaH-jB-lBK" id="Gb3-gk-prC"/>
-                        <outlet property="day6" destination="bby-Z3-Ggw" id="vsI-HB-IxC"/>
                         <outlet property="daysHeader" destination="FnJ-i2-3rh" id="9ye-5U-Bie"/>
                         <outlet property="nextWeek" destination="ep7-Zj-mBI" id="WYu-5Y-dOU"/>
                         <outlet property="plusButton" destination="xsj-3c-kfw" id="EFH-o9-Jia"/>
@@ -392,6 +385,13 @@
                         <outlet property="separatorTopConstraint" destination="8kH-5r-qKy" id="bhD-eH-rfJ"/>
                         <outlet property="stampSelector" destination="kD0-4R-gft" id="NT0-8X-QK3"/>
                         <outlet property="stampSelectorBottomContstraint" destination="be8-Zf-eJO" id="Qtl-Fj-ZqD"/>
+                        <outletCollection property="dayViews" destination="dJ0-of-a5u" collectionClass="NSMutableArray" id="gTX-u5-qcg"/>
+                        <outletCollection property="dayViews" destination="1lM-26-t9b" collectionClass="NSMutableArray" id="u5J-Z8-d7e"/>
+                        <outletCollection property="dayViews" destination="EOr-jo-VtK" collectionClass="NSMutableArray" id="Nnq-sk-pUt"/>
+                        <outletCollection property="dayViews" destination="M3W-1S-Mqu" collectionClass="NSMutableArray" id="VQn-Sg-bTj"/>
+                        <outletCollection property="dayViews" destination="Rbx-OB-6HF" collectionClass="NSMutableArray" id="t1K-NW-rnO"/>
+                        <outletCollection property="dayViews" destination="QaH-jB-lBK" collectionClass="NSMutableArray" id="q5m-cI-bxg"/>
+                        <outletCollection property="dayViews" destination="bby-Z3-Ggw" collectionClass="NSMutableArray" id="Qcf-W8-duS"/>
                         <segue destination="DIf-UA-VLm" kind="presentation" identifier="newSticker" id="TSB-6g-cKh"/>
                     </connections>
                 </viewController>
